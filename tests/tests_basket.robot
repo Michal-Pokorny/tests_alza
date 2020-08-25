@@ -14,6 +14,7 @@ Go to Notebook Category Find 2 Most Expensive Items on Current Page and Add Them
     Return Back to Item List
     Find nth Most Expensive Item and Add it    2
     Continue to Basket
+    Check Number of Items in Basket    2
     
 Go to Notebook Category Sort by Price and Add 2 Most Expensive Items to Basket
     Go To Category    ${category_btn_tag}    ${category_assert}
@@ -22,3 +23,4 @@ Go to Notebook Category Sort by Price and Add 2 Most Expensive Items to Basket
     Return Back to Item List
     Add nth Item    2
     Continue to Basket
+    Check Number of Items in Basket    2
