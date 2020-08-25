@@ -12,5 +12,6 @@ ${basket_return_btn}    id:varABackButton
 ${basket_continue_btn}    id:varAToBasketButton
 ${basket_assert}    Košík
 ${basket_assert_tag}    css:#ordernav .first strong
+${basket_items_assert_tag}    css:table.o1grid tr[data-code]
 ${sort_price_btn}    css:[aria-controls="cenadesc"]
 ${circle_loader_tag}    css:.circle-loader-container
