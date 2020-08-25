@@ -16,7 +16,7 @@ Go to Notebook Category Find 2 Most Expensive Items on Current Page and Add Them
     Continue to Basket
     
 Go to Notebook Category Sort by Price and Add 2 Most Expensive Items to Basket
-    Go To Category    id:litp18842920    Notebooky
+    Go To Category    ${category_btn_tag}    ${category_assert}
     Sort Items by Price
     Add nth Item    1
     Return Back to Item List
