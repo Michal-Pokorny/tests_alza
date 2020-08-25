@@ -74,4 +74,4 @@ Check Number of Items in Basket
     [arguments]    ${n}
     Wait Until Element Contains    ${basket_assert_tag}    ${basket_assert}
     Wait Until Page Contains Element    ${basket_items_assert_tag}    
-    Page Should Contain Element    ${basket_items_assert_tag}    ${n}
+    Page Should Contain Element    ${basket_items_assert_tag}    limit=${n}
