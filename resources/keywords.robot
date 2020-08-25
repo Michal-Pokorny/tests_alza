@@ -69,3 +69,9 @@ Return Back to Item List
 Continue to Basket
     Wait Until Page Contains Element    ${basket_continue_btn}
     Click Element    ${basket_continue_btn}
+    
+Check Number of Items in Basket
+    [arguments]    ${n}
+    Wait Until Element Contains    ${basket_assert_tag}    ${basket_assert}
+    Wait Until Page Contains Element    ${basket_items_assert_tag}    
+    Page Should Contain Element    ${basket_items_assert_tag}    ${n}
