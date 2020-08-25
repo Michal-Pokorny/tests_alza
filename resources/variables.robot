@@ -1,6 +1,8 @@
 *** Variables ***
 ${url}    https://www.alza.cz/
 ${browser}    chrome
+${category_btn_tag}    id:litp18842920
+${category_assert}    Notebooky
 ${category_assert_tag}    xpath://h1[@itemprop="name"]    
 ${item_price_tag}    css:.price .c2
 ${item_add_tag}    css:.browsingitemcontainer .browsingitem .btnk1
